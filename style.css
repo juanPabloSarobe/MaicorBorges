@@ -1,0 +1,365 @@
+*
+
+/* Home y nav*/
+.titulohome {
+    font-size: 180%;
+    padding-top: 10px;
+
+    color: grey;
+    display: flex;
+    justify-content: center
+}
+
+.nombretitulo {
+    letter-spacing: 1em;
+    font-family: 'Aboreto'
+
+}
+
+.imagenhome {
+    display: flex;
+    justify-content: center;
+    scale: 70%;
+    margin-bottom: auto;
+}
+
+.fotoinicial {
+    display: flex;
+    justify-items: center;
+
+}
+
+.sectionmenu{
+    display: contents;
+}
+
+
+.navmenu {
+    
+    text-decoration: none;
+    display: flex;
+    margin-left: 530px;
+    align-content: space-around;
+
+}
+ 
+a{
+    text-decoration: none;
+}
+
+.listmenu {
+    text-decoration: none;
+    color: rgb(181, 149, 100);
+    display: contents;
+    padding: 3px 180px;
+    justify-content: space-between;
+    font-family: 'Aboreto';
+    
+}
+
+.ulmenu{
+
+    display: contents;
+    list-style: none;
+    justify-content: space-between;
+    word-spacing: 20px;
+}
+.linkmenu{
+margin-left: 20px;
+
+}
+
+
+.iconospie {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Bio*/
+
+
+
+.frasebio {
+    font-family: 'Aboreto';
+    font-size: 2rem;
+    color: rgb(196, 128, 40);
+    margin-right: 50rem;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 60px;
+}
+
+.textobio {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
+    color: rgb(42, 39, 7);
+    display: flex;
+    justify-content: center;
+    margin: 400px 120px 50px 120px;
+
+}
+
+.fotobio {
+    position: absolute;
+    top: 100px;
+    left: 800px;
+
+}
+
+
+
+
+/*OBRA*/
+
+.sectionobra{
+
+display: contents;
+
+} 
+
+.obraintro {
+    display: flex;
+    align-content: space-between;
+}
+
+
+
+.textovidaobra {
+    width: 400px;
+    height: 200px;
+    /* position: relative;
+    top: -300px;
+    left: 600px; */
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding-left: 100px;
+    text-align: center;
+
+
+}
+
+.subtituloobra {
+    /* position: relative;
+    top: -300px;
+    left: 650px;
+    display: inline; */
+
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.fotoobraprincipal {
+    display: flex;
+    top: 0px;
+
+}
+
+
+
+
+.divraku {
+    display: flex;
+    align-content: space-between;
+}
+
+.fotoraku {
+    /* position: relative;
+    bottom: 550px;
+    left: 620px;*/
+} 
+
+.subraku {
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* position: relative;
+    left: 600px;
+    bottom: 150px; */
+
+
+}
+
+.textoraku {
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    width: 400px;
+    height: 200px;
+    padding-left: 100px;
+    /* text-align: center;
+    position: relative;
+    left: 250px;
+    bottom: 150px; */
+} 
+
+
+.fotoarte {
+      max-width: 40%;
+  /* position: relative;
+    bottom: 550px; */
+
+}
+
+.subarte {
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* position: relative;
+    bottom: 950px;
+    left: 750px; */
+}
+
+.fotoexpo {
+    max-width: 50%;
+    /* position: relative;
+    bottom: 600px;
+    left: 650px; */
+
+
+}
+
+.subesculturas {
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    /* position: relative;
+    bottom: 1000px;
+    left: 240px; */
+
+}
+
+.divescultura {
+    /* margin-bottom: -600px; */
+}
+
+
+/*El ultimo div tiene un tamaño el cual intente cambiar 
+con width y height para que ocupe solo el espacio de la ventana y no fue posible
+*/
+/* body {
+    overflow-x: hidden;
+} */
+
+
+
+
+
+
+
+
+/*actividades*/
+
+
+.tituloactiv {
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    left: 500px;
+
+}
+
+
+.contimagenesactiv img {
+    max-width: 30%;
+
+}
+
+.fototaller {
+position: relative;
+display: inline;
+max-width: 30%;
+left: 25px;
+}
+
+.fotocurso {
+max-width: 30%;
+display: inline;
+position: relative;
+bottom: 0px;
+left: 50px;
+top: 0px;
+}
+
+.fotoencuentro {
+max-width: 30%;
+display: inline;
+position: relative;
+bottom: 0px;
+left: 75px;
+top: 0px;
+
+}
+
+
+.subtalleres {
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+bottom: 0px; left: 110px;
+display: inline;
+}
+
+.subcursos {
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+bottom: 0px; left: 360px;
+display: inline;
+
+}
+
+.subencuentros {
+    color: rgb(42, 39, 7);
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+bottom: 0px; left: 600px;
+display: inline;
+}
+
+.texttalleres {
+font-size: 1rem;
+font-family: 'Ubuntu', sans-serif;
+display:inline-table;
+position: relative;
+bottom: 0px;
+left: 35px;
+width: 400px;
+height: 200px;
+text-align: center;
+
+}
+
+
+.textcursos {
+font-size: 1rem;
+font-family: 'Ubuntu', sans-serif;
+display: inline-table;
+position: relative;
+left: 120px;
+width: 400px;
+height: 200px;
+}
+
+
+
+.textencuentros {
+font-size: 1rem;
+font-family: 'Ubuntu', sans-serif;
+display: inline-table;
+position: relative;
+left: 225px;
+width: 400px;
+height: 200px;
+
+}
