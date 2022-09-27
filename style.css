@@ -1,36 +1,41 @@
-*
 
 /* Home y nav*/
-.titulohome {
-    font-size: 180%;
-    padding-top: 10px;
 
-    color: grey;
-    display: flex;
-    justify-content: center
+.gridhome{
+display: grid;
+grid-template-columns: 800px;
+grid-template-rows: 100px 500px 100px;
 }
 
+
+
 .nombretitulo {
+   display: flex;
+   justify-content: center;
     letter-spacing: 1em;
     font-family: 'Aboreto'
 
 }
 
+.titulohome {
+    justify-content: center;
+    font-size: 180%;
+    color: grey;
+}
 .imagenhome {
-    display: flex;
     justify-content: center;
     scale: 70%;
     margin-bottom: auto;
 }
 
 .fotoinicial {
-    display: flex;
-    justify-items: center;
+    /* display: flex;
+    justify-items: center; */
 
 }
 
 .sectionmenu{
-    display: contents;
+    /* display: contents; */
 }
 
 
@@ -38,31 +43,34 @@
     
     text-decoration: none;
     display: flex;
-    margin-left: 530px;
-    align-content: space-around;
+    justify-content:center;
 
 }
  
+
+
 a{
     text-decoration: none;
 }
 
-.listmenu {
-    text-decoration: none;
-    color: rgb(181, 149, 100);
+/*.listmenu {
+   
     display: contents;
-    padding: 3px 180px;
-    justify-content: space-between;
-    font-family: 'Aboreto';
+     padding: 3px 180px; 
+    justify-content: center;
     
-}
+    
+}*/
 
 .ulmenu{
 
     display: contents;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     word-spacing: 20px;
+    font-family: 'Aboreto';
+     text-decoration: none;
+    color: rgb(181, 149, 100);
 }
 .linkmenu{
 margin-left: 20px;
@@ -71,7 +79,6 @@ margin-left: 20px;
 
 
 .iconospie {
-    padding-top: 80px;
     display: flex;
     justify-content: center;
 }
