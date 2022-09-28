@@ -48,8 +48,7 @@ grid-template-rows: 100px 500px 100px;
 }
 .navbar-letra{
     font-family: 'Aboreto';
-    display: flex;
-    justify-content:center;
+  
 
 }
  
