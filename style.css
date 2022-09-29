@@ -36,6 +36,15 @@ grid-template-rows: 100px 500px 100px;
     justify-content: center;
 }
 
+.container-config{
+
+    margin-top: 5rem;
+}
+
+.container-config2{
+    margin-top: 10rem;
+}
+
 
 /*Bio*/
 
@@ -112,20 +121,12 @@ display: contents;
     align-content: space-between;
 }
 
-.fotoraku {
-    /* position: relative;
-    bottom: 550px;
-    left: 620px;*/
-} 
 
 .subraku {
     color: rgb(42, 39, 7);
     font-size: 2rem;
     font-family: 'Ubuntu', sans-serif;
-    /* position: relative;
-    left: 600px;
-    bottom: 150px; */
-
+ 
 
 }
 
@@ -135,37 +136,10 @@ display: contents;
     width: 400px;
     height: 200px;
     padding-left: 100px;
-    /* text-align: center;
-    position: relative;
-    left: 250px;
-    bottom: 150px; */
-} 
+ 
 
 
-.fotoarte {
-      /* max-width: 40%; */
-  /* position: relative;
-    bottom: 550px; */
 
-}
-
-.subarte {
-    color: rgb(42, 39, 7);
-    font-size: 2rem;
-    font-family: 'Ubuntu', sans-serif;
-    /* position: relative;
-    bottom: 950px;
-    left: 750px; */
-}
-
-.fotoexpo {
-    /* max-width: 50%; */
-    /* position: relative;
-    bottom: 600px;
-    left: 650px; */
-
-
-}
 
 .subesculturas {
     color: rgb(42, 39, 7);
