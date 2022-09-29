@@ -1,4 +1,7 @@
-
+*{
+    padding: 0;
+    margin: 0;
+}
 /* Home y nav*/
 
 .gridhome{
@@ -133,9 +136,9 @@ display: contents;
 .textoraku {
     font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
-    width: 400px;
+    /* width: 400px;
     height: 200px;
-    padding-left: 100px;
+    padding-left: 100px; */
  
 
 
@@ -156,37 +159,26 @@ display: contents;
 }
 
 
-/*El ultimo div tiene un tamaño el cual intente cambiar 
-con width y height para que ocupe solo el espacio de la ventana y no fue posible
-*/
-/* body {
-    overflow-x: hidden;
-} */
 
 
 
 
+/*Obra*/
 
 
-
-
-/*actividades*/
-
-
-.tituloactiv {
+.tituloactiv{
     color: rgb(42, 39, 7);
-    font-size: 2.5rem;
+    font-size: 5rem;
     font-family: 'Ubuntu', sans-serif;
 
     display:flex;
-    justify-content: center;
+    justify-content: end;
 
 }
 
 
 .carrousel-dimension{
-    max-width: 60%;
-    margin: 0 auto;
+max-width: 50%;    
 } 
 
 
@@ -198,91 +190,8 @@ con width y height para que ocupe solo el espacio de la ventana y no fue posible
 
 .titulo-carrousel{
     font-size: 3rem;
-}
-
-
-.contimagenesactiv img {
-    max-width: 30%;
-
-}
-
-.fototaller {
-position: relative;
-display: inline;
-max-width: 30%;
-left: 25px;
-}
-
-.fotocurso {
-max-width: 30%;
-display: inline;
-position: relative;
-bottom: 0px;
-left: 50px;
-top: 0px;
-}
-
-.fotoencuentro {
-max-width: 30%;
-display: inline;
-position: relative;
-bottom: 0px;
-left: 75px;
-top: 0px;
-
-}
-
-
-.subtalleres {
     color: rgb(42, 39, 7);
-    font-size: 2rem;
     font-family: 'Ubuntu', sans-serif;
-    position: relative;
-bottom: 0px; left: 110px;
-display: inline;
-}
-
-.subcursos {
-    color: rgb(42, 39, 7);
-    font-size: 2rem;
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-bottom: 0px; left: 360px;
-display: inline;
-
-}
-
-.subencuentros {
-    color: rgb(42, 39, 7);
-    font-size: 2rem;
-    font-family: 'Ubuntu', sans-serif;
-    position: relative;
-bottom: 0px; left: 600px;
-display: inline;
-}
-
-.texttalleres {
-font-size: 1rem;
-font-family: 'Ubuntu', sans-serif;
-display:inline-table;
-position: relative;
-bottom: 0px;
-left: 35px;
-width: 400px;
-height: 200px;
-text-align: center;
-
-}
-
-
-.textcursos {
-font-size: 1rem;
-font-family: 'Ubuntu', sans-serif;
-display: inline-table;
-position: relative;
-left: 120px;
-width: 400px;
-height: 200px;
 }
 
 
@@ -290,10 +199,5 @@ height: 200px;
 .textencuentros {
 font-size: 1rem;
 font-family: 'Ubuntu', sans-serif;
-display: inline-table;
-position: relative;
-left: 225px;
-width: 400px;
-height: 200px;
 
 }
