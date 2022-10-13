@@ -5,6 +5,7 @@
     display: grid;
 grid-template-columns: 800px;
 grid-template-rows: 100px 500px 100px;
+
     .nombretitulo{
     margin-top: 2rem;
     letter-spacing: 1em;
@@ -13,7 +14,9 @@ grid-template-rows: 100px 500px 100px;
     justify-content: center;
 
     .titulohome{
-        font-size: 180%;
+        font-size: 1.5em;
+        
+      
 
          }
     }

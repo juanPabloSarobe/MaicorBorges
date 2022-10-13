@@ -7,16 +7,16 @@
 .gridhome .nombretitulo {
   margin-top: 2rem;
   letter-spacing: 1em;
-  font-family: "Arboreto";
+  font-family: "aboreto";
   display: flex;
   justify-content: center;
 }
 .gridhome .nombretitulo .titulohome {
-  font-size: 180%;
+  font-size: 1.5em;
 }
 
 .navbar .navbar-letra {
-  font-family: "Arboreto";
+  font-family: "aboreto";
 }
 
 /*reseteo*/
@@ -25,14 +25,26 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "ubuntu";
+  src: url(../../fonts/Aboreto\,Ubuntu\,Yanone_Kaffeesatz/Ubuntu);
+}
+@font-face {
+  font-family: "aboreto";
+  src: url(../../fonts/Aboreto\,Ubuntu\,Yanone_Kaffeesatz/Aboreto);
+}
+@font-face {
+  font-family: "yanone";
+  src: url(../../fonts/Aboreto\,Ubuntu\,Yanone_Kaffeesatz/Yanone_Kaffeesatz);
+}
 .frasebio {
-  font-family: "Arboreto";
+  font-family: "aboreto";
   font-size: 2rem;
   color: rgb(196, 128, 40);
 }
 
 .textobio {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "ubuntu", sans-serif;
   font-size: medium;
   color: rgb(42, 39, 7);
 }
@@ -47,30 +59,30 @@
 .col_obra1 .subtituloobra {
   color: rgb(42, 39, 7);
   font-size: 2rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "ubuntu", sans-serif;
   margin-top: 10rem;
 }
 .col_obra1 .textovidaobra {
   font-size: 1.2rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "ubuntu", sans-serif;
   padding-left: 100px;
 }
 
 .subraku {
   color: rgb(42, 39, 7);
   font-size: 2rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "ubuntu", sans-serif;
 }
 
 .textoraku {
   font-size: 1.2rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "ubuntu", sans-serif;
 }
 
 .subesculturas {
   color: rgb(42, 39, 7);
   font-size: 2rem;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "ubuntu", sans-serif;
 }
 
 .nombretitulo .tituloactiv {
@@ -93,6 +105,10 @@
   font-size: 3rem;
   color: rgb(42, 39, 7);
   font-family: "Ubuntu", sans-serif;
+}
+
+.navbar-letra {
+  font-size: 1.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
