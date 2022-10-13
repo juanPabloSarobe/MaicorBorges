@@ -1,17 +1,40 @@
-/* prueba */
+/* prueba */ /*reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: "aboreto";
+  src: url(../../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+@font-face {
+  font-family: "yanone";
+  src: url(../../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: face;
+  src: url();
+}
 .gridhome {
   display: grid;
   grid-template-columns: 800px;
   grid-template-rows: 100px 500px 100px;
 }
-.gridhome .nombretitulo {
+
+.nombretitulo {
   margin-top: 2rem;
   letter-spacing: 1em;
   font-family: "aboreto";
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
-.gridhome .nombretitulo .titulohome {
+.nombretitulo .titulohome {
   font-size: 1.5em;
 }
 
@@ -27,7 +50,29 @@
 
 @font-face {
   font-family: "ubuntu";
-  src: url(../../fonts/Ubuntu/);
+  src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: "aboreto";
+  src: url(../../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+@font-face {
+  font-family: "yanone";
+  src: url(../../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: face;
+  src: url();
+}
+/*reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
 @font-face {
   font-family: "aboreto";
@@ -43,7 +88,7 @@
 }
 .frasebio {
   font-family: "aboreto";
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: rgb(196, 128, 40);
 }
 
@@ -51,8 +96,35 @@
   font-family: "ubuntu", sans-serif;
   font-size: medium;
   color: rgb(42, 39, 7);
+  text-align: justify;
+}
+.textobio .resaltebio {
+  font-weight: bolder;
+  color: rgb(196, 128, 40);
 }
 
+/*reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: "aboreto";
+  src: url(../../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+@font-face {
+  font-family: "yanone";
+  src: url(../../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: face;
+  src: url();
+}
 .col_obra1 .cont-foto-obra1 {
   margin-top: 5rem;
 }
@@ -60,13 +132,15 @@
   display: flex;
   top: 0px;
 }
-.col_obra1 .subtituloobra {
+
+.subtituloobra {
   color: rgb(42, 39, 7);
   font-size: 2rem;
   font-family: "ubuntu", sans-serif;
   margin-top: 10rem;
 }
-.col_obra1 .textovidaobra {
+
+.textovidaobra {
   font-size: 1.2rem;
   font-family: "ubuntu", sans-serif;
   padding-left: 100px;
@@ -89,12 +163,35 @@
   font-family: "ubuntu", sans-serif;
 }
 
+/*reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+@font-face {
+  font-family: "aboreto";
+  src: url(../../fonts/Aboreto/Aboreto-Regular.ttf);
+}
+@font-face {
+  font-family: "yanone";
+  src: url(../../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: face;
+  src: url();
+}
 .nombretitulo .tituloactiv {
   color: rgb(42, 39, 7);
-  font-size: 5rem;
-  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-family: "aboreto";
   display: flex;
-  justify-content: end;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .carrousel-dimension {
@@ -102,17 +199,27 @@
 }
 
 .texto-carrousel {
-  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "ubuntu";
+  font-size: 1rem;
 }
 
 .titulo-carrousel {
   font-size: 3rem;
   color: rgb(42, 39, 7);
-  font-family: "Ubuntu", sans-serif;
+  font-family: "ubuntu";
 }
 
 .navbar-letra {
   font-size: 1.3rem;
+}
+
+.iconospie {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

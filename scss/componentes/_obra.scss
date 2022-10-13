@@ -1,6 +1,6 @@
 @import '../base/variables';
 
-.col_obra1{
+        .col_obra1{
 
     .cont-foto-obra1{
         margin-top: 5rem;
@@ -10,22 +10,20 @@
             top: 0px;
        
         }
-    }
+    } 
+  }
+
 .subtituloobra {
     color: $font-color2;
     font-size: 2rem;
     font-family: $font-frase, sans-serif;
     margin-top: 10rem;
   }
-    .textovidaobra {
+ .textovidaobra {
     font-size: 1.2rem;
     font-family: $font-frase, sans-serif;
     padding-left: 100px;
 }
-    
-}
-
-
 
      .subraku{
         color: rgb(42, 39, 7);
@@ -39,14 +37,11 @@
 
     }
 
-    .fotoraku{
-
-    }
+ 
 
     .subesculturas {
         color: rgb(42, 39, 7);
         font-size: 2rem;
         font-family: $font-frase, sans-serif;
         }
-
 

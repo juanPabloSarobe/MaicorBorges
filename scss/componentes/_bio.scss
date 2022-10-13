@@ -6,8 +6,9 @@
 
 .frasebio {
     font-family: $font-titulo;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: $font-color1;
+
    
 }
 
@@ -15,6 +16,12 @@
     font-family: $font-frase, sans-serif;
     font-size: medium;
     color: $font-color2;
+    text-align: justify;
+
+    .resaltebio{
+        font-weight: bolder;
+        color: $font-color1;
+    }
   
 
 }

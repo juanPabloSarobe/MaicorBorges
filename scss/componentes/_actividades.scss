@@ -3,10 +3,9 @@
 .nombretitulo{
     .tituloactiv{
     color: rgb(42, 39, 7);
-    font-size: 5rem;
-    font-family: 'Ubuntu', sans-serif;
-    display:flex;
-    justify-content: end;
+    font-size: 2rem;
+    font-family: $font-titulo;
+    @include flex-row-center;
 
     }
 }
@@ -16,15 +15,16 @@
     
 } 
 .texto-carrousel{
-
-    font-size:  1.5rem;
+    @include flex-row-center;
+    font-family: $font-frase;
+    font-size:  1rem;
 }
 
 
 .titulo-carrousel{
     font-size: 3rem;
     color: rgb(42, 39, 7);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: $font-frase;
 }
 
 
