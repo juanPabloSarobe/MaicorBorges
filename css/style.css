@@ -1,0 +1,98 @@
+/* prueba */
+.gridhome {
+  display: grid;
+  grid-template-columns: 800px;
+  grid-template-rows: 100px 500px 100px;
+}
+.gridhome .nombretitulo {
+  margin-top: 2rem;
+  letter-spacing: 1em;
+  font-family: "Arboreto";
+  display: flex;
+  justify-content: center;
+}
+.gridhome .nombretitulo .titulohome {
+  font-size: 180%;
+}
+
+.navbar .navbar-letra {
+  font-family: "Arboreto";
+}
+
+/*reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.frasebio {
+  font-family: "Arboreto";
+  font-size: 2rem;
+  color: rgb(196, 128, 40);
+}
+
+.textobio {
+  font-family: "Ubuntu", sans-serif;
+  font-size: medium;
+  color: rgb(42, 39, 7);
+}
+
+.col_obra1 .cont-foto-obra1 {
+  margin-top: 5rem;
+}
+.col_obra1 .cont-foto-obra1 .foto-obra1 {
+  display: flex;
+  top: 0px;
+}
+.col_obra1 .subtituloobra {
+  color: rgb(42, 39, 7);
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 10rem;
+}
+.col_obra1 .textovidaobra {
+  font-size: 1.2rem;
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 100px;
+}
+
+.subraku {
+  color: rgb(42, 39, 7);
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.textoraku {
+  font-size: 1.2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.subesculturas {
+  color: rgb(42, 39, 7);
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nombretitulo .tituloactiv {
+  color: rgb(42, 39, 7);
+  font-size: 5rem;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  justify-content: end;
+}
+
+.carrousel-dimension {
+  max-width: 50%;
+}
+
+.texto-carrousel {
+  font-size: 1.5rem;
+}
+
+.titulo-carrousel {
+  font-size: 3rem;
+  color: rgb(42, 39, 7);
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

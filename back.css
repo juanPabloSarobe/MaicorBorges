@@ -140,7 +140,7 @@ display: contents;
     height: 200px;
     padding-left: 100px; */
  
-
+}
 
 
 
@@ -163,7 +163,7 @@ display: contents;
 
 
 
-/*Obra*/
+/*Actividades*/
 
 
 .tituloactiv{
@@ -196,7 +196,7 @@ max-width: 50%;
 
 
 
-.textencuentros {
+.textencuentros{
 font-size: 1rem;
 font-family: 'Ubuntu', sans-serif;
 

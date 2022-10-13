@@ -1,0 +1,28 @@
+
+@import '../base/variables';
+
+.gridhome{
+    display: grid;
+grid-template-columns: 800px;
+grid-template-rows: 100px 500px 100px;
+    .nombretitulo{
+    margin-top: 2rem;
+    letter-spacing: 1em;
+    font-family: $font-titulo;
+    display: flex;
+    justify-content: center;
+
+    .titulohome{
+        font-size: 180%;
+
+         }
+    }
+}
+
+.navbar{
+    .navbar-letra{
+        font-family: $font-titulo;
+      
+    }
+    
+}
