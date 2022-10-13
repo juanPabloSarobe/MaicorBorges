@@ -7,15 +7,20 @@
 
 @font-face {
     font-family: "ubuntu";
-    src: url(../../fonts/Aboreto\,Ubuntu\,Yanone_Kaffeesatz/Ubuntu);
+    src: url(../../fonts/Ubuntu/);
 }
 
 @font-face {
     font-family: "aboreto";
-    src: url(../../fonts/Aboreto\,Ubuntu\,Yanone_Kaffeesatz/Aboreto);
+    src: url(../../fonts/Aboreto/Aboreto-Regular.ttf);
 }
 
 @font-face {
     font-family: "yanone";
-    src: url(../../fonts/Aboreto\,Ubuntu\,Yanone_Kaffeesatz/Yanone_Kaffeesatz);
+    src: url(../../fonts/Yanone_Kaffeesatz/YanoneKaffeesatz-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: face;
+    src: url();
 }

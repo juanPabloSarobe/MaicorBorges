@@ -1,5 +1,7 @@
+@import '../base/variables'
 
-// .iconospie{
-//     display: flex;
-//     justify-content: center;
-// }
+
+
+ .iconospie{
+    @include flex-row-center
+ }
