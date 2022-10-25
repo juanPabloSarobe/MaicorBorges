@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 /* prueba */ /*reseteo*/
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +9,17 @@
 
 @font-face {
   font-family: "ubuntu";
+<<<<<<< HEAD
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "aboreto";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "yanone";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+=======
   src: url(https://github.com/MaicorBorges/ProyectoCoder/blob/master/fonts/Ubuntu/Ubuntu-Regular.ttf);
   src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
@@ -22,6 +36,7 @@
 @font-face {
   font-family: face;
   src: url();
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
 }
 .gridhome {
   display: grid;
@@ -37,15 +52,37 @@
   flex-direction: row;
   justify-content: center;
 }
+<<<<<<< HEAD
+
+.titulohome {
+  font-size: 1.5em;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+=======
 .nombretitulo .titulohome {
   font-size: 1.5em;
 }
 
 .navbar .navbar-letra {
   font-family: "aboreto";
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
 }
 
-/*reseteo*/
+@font-face {
+  font-family: "ubuntu";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "aboreto";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "yanone";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
 * {
   margin: 0;
   padding: 0;
@@ -53,6 +90,17 @@
 
 @font-face {
   font-family: "ubuntu";
+<<<<<<< HEAD
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "aboreto";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "yanone";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+=======
   src: url(https://github.com/MaicorBorges/ProyectoCoder/blob/master/fonts/Ubuntu/Ubuntu-Regular.ttf);
   src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
@@ -94,6 +142,7 @@
 @font-face {
   font-family: face;
   src: url();
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
 }
 .frasebio {
   font-family: "aboreto";
@@ -103,13 +152,41 @@
 
 .textobio {
   font-family: "ubuntu", sans-serif;
+<<<<<<< HEAD
+  font-size: small;
+=======
   font-size: medium;
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
   color: rgb(42, 39, 7);
   text-align: justify;
 }
 .textobio .resaltebio {
   font-weight: bolder;
   color: rgb(196, 128, 40);
+<<<<<<< HEAD
+}
+
+fotobio {
+  background: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "aboreto";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "yanone";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+=======
 }
 
 /*reseteo*/
@@ -136,6 +213,7 @@
 @font-face {
   font-family: face;
   src: url();
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
 }
 .col_obra1 .cont-foto-obra1 {
   margin-top: 5rem;
@@ -175,7 +253,10 @@
   font-family: "ubuntu", sans-serif;
 }
 
+<<<<<<< HEAD
+=======
 /*reseteo*/
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
 * {
   margin: 0;
   padding: 0;
@@ -183,6 +264,21 @@
 
 @font-face {
   font-family: "ubuntu";
+<<<<<<< HEAD
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "aboreto";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "yanone";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+.nombretitulo .tituloactiv {
+  color: rgb(42, 39, 7);
+  font-size: 1.5rem;
+=======
   src: url(https://github.com/MaicorBorges/ProyectoCoder/blob/master/fonts/Ubuntu/Ubuntu-Regular.ttf);
   src: url(../../fonts/Ubuntu/Ubuntu-Regular.ttf);
 }
@@ -203,6 +299,7 @@
 .nombretitulo .tituloactiv {
   color: rgb(42, 39, 7);
   font-size: 2rem;
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
   font-family: "aboreto";
   display: flex;
   flex-direction: row;
@@ -222,19 +319,82 @@
 }
 
 .titulo-carrousel {
-  font-size: 3rem;
+  font-size: 1.5rem;
   color: rgb(42, 39, 7);
   font-family: "ubuntu";
 }
 
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "aboreto";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "yanone";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+.navbar-letra {
+  font-family: "aboreto";
+  font-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "aboreto";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "yanone";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+=======
 .navbar-letra {
   font-size: 1.3rem;
 }
 
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
 .iconospie {
   display: flex;
   flex-direction: row;
   justify-content: center;
+<<<<<<< HEAD
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "aboreto";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+}
+@font-face {
+  font-family: "yanone";
+  src: url("https://fonts.googleapis.com/css2?family=Aboreto&family=Ubuntu:wght@300&family=Yanone+Kaffeesatz:wght@200;300&display=swap");
+=======
+>>>>>>> f02328fdce9793aad169ebd90fbabb75ede3f500
 }
 
 /*# sourceMappingURL=style.css.map */
