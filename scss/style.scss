@@ -1,8 +1,7 @@
-/* prueba */
 
-
-@import '../scss/componentes/header';
+@import '../scss/base/variables';    /* Las variables siempre van primero */
 @import '../scss/base/estilosGenerales';
+@import '../scss/componentes/header';
 @import '../scss/componentes/bio';
 @import '../scss/componentes/obra';
 @import '../scss/componentes/actividades';
